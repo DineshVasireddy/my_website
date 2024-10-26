@@ -10,7 +10,7 @@ function FAQ() {
     useEffect(() => {
         const fetchFAQs = async () => {
             try {
-                const response = await axios.get('https://github.com/DineshVasireddy/my_website/blob/main/public/faqs.txt');
+                const response = await axios.get('https://dineshvasireddy.github.io/my_website/faqs.txt');
                 const data = response.data;
                 const faqArray = data
                     .replace(/\r\n/g, '\n')
