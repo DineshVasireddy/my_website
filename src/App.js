@@ -14,7 +14,7 @@ const Consulting = lazy(() => import('./components/Services/Consulting'));
 
 function App() {
     return (
-        <Router basename="/my_website">
+        <Router>
             <Navigation />
             <Suspense fallback={<div className='lazyload'>Loading...</div>}>
                 <Routes>
