@@ -1,0 +1,29 @@
+Q: What is web development?
+A: Web development refers to the process of creating and maintaining websites. It encompasses various tasks, including web design, coding, content management, and server configuration to ensure the website functions properly.
+
+Q: How long does it take to develop a website?
+A: The timeline for website development varies based on complexity. Simple sites can take a few weeks, while more complex platforms may take several months. We work with clients to establish a timeline that meets their needs.
+
+Q: Do you offer mobile app development for both iOS and Android?
+A: Yes, we specialize in developing high-performance mobile applications for both iOS and Android platforms. Our services include native and cross-platform app development.
+
+Q: What is a content management system (CMS)?
+A: A CMS is a software application that allows users to create, manage, and modify content on a website without needing specialized technical knowledge. Examples include WordPress, Joomla, and Drupal.
+
+Q: How do you ensure the security of a website?
+A: We implement best practices such as SSL certificates, regular updates, secure coding techniques, and regular security audits to ensure your website remains secure against potential threats.
+
+Q: What is the process for developing a mobile app?
+A: Our mobile app development process includes requirement gathering, UI/UX design, development, testing, and deployment. We also provide ongoing maintenance and updates after launch.
+
+Q: What kind of consulting services do you provide?
+A: We offer a range of consulting services, including business strategy, digital transformation, technology consulting, market research, and training workshops to help businesses thrive in a competitive environment.
+
+Q: How can I ensure my website is mobile-friendly?
+A: We focus on responsive design, which adjusts your website's layout to fit various screen sizes. This ensures an optimal user experience on both desktop and mobile devices.
+
+Q: What if I need support after my website or app is launched?
+A: We provide ongoing maintenance and support to ensure your website or app is up-to-date, secure, and running smoothly. Our team is always available to assist with any issues or updates.
+
+Q: Can you help with SEO for my website?
+A: Yes, we offer SEO services to optimize your website for search engines, helping you improve visibility and attract more traffic. Our strategies include keyword research, on-page optimization, and content marketing.

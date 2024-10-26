@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[338],{338:(e,s,n)=>{n.r(s),n.d(s,{default:()=>t});n(43);var r=n(579);const t=function(){return(0,r.jsx)("center",{children:(0,r.jsxs)("div",{className:"content",children:[(0,r.jsx)("h2",{children:"About"}),(0,r.jsx)("p",{children:"This website provides a platform for sharing and analyzing agricultural data collected from IoT sensors."})]})})}}}]);
+//# sourceMappingURL=338.827fac40.chunk.js.map

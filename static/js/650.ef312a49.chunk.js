@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[650],{650:(e,s,t)=>{t.r(s),t.d(s,{default:()=>a});t(43);var r=t(579);const a=function(){return(0,r.jsx)("center",{children:(0,r.jsxs)("div",{className:"content",children:[(0,r.jsx)("h1",{children:"Welcome to the IoT Data Repository"}),(0,r.jsx)("p",{children:"This platform provides a secure way to store and share agricultural data ."})]})})}}}]);
+//# sourceMappingURL=650.ef312a49.chunk.js.map
