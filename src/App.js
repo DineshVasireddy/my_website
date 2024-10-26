@@ -18,7 +18,7 @@ function App() {
             <Navigation />
             <Suspense fallback={<div className='lazyload'>Loading...</div>}>
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
+                    <Route path="/my_website" element={<HomePage />} />
                     <Route path="/viewer" element={<DataViewerPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/Services" element={<Navigate to="WebDevelopment" />} />
