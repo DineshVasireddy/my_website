@@ -1,3 +1,7 @@
+* {
+    list-style: none;
+}
+
 nav {
     width: 100%;
     height: 100px;
@@ -380,10 +384,28 @@ h2 {
     }
 }
 
-@media screen and (max-width: 300px) {
-    nav li {
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 8px;
+        padding: 2px !important;
+    }
+   
+}
+
+
+
+@media screen and (max-width: 315px) {
+    div {
         visibility: hidden;
     }
+
+    div::before{
+        content: "Cannot Render in This Resolution";
+        visibility: visible;
+        font-size: 20px;
+    }
+
+    
 }
 
 
