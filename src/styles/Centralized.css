@@ -1,0 +1,391 @@
+nav {
+    width: 100%;
+    height: 100px;
+    align-content: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+nav a {
+    transition: background-color 0.9s ease, color 0.9s ease, padding 0.4s ease; 
+}
+
+.servicesNav a {
+    transition: background-color 0.9s ease, color 0.9s ease, padding 0.4s ease; 
+}
+
+.webDevelopment {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.webDevelopment.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mobileDevelopment {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.mobileDevelopment.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.consulting {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.consulting.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.faqs {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.faqs.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.profilecard {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.profilecard.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.profilecard {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.profilecard.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.form-container {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.form-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav a:hover:not(.active){
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+nav a:hover:is(.active) {
+    cursor:default;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav li:not(:first-child) {
+    margin-left: 5%;
+}
+
+
+.servicesNav {
+    text-align: center;
+    width: 100%;
+}
+
+.servicesNav a{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.servicesNav ul {
+    padding: 0;
+}
+
+.servicesNav li {
+    display: inline-block;  
+}
+
+.servicesNav li:not(:first-child) {
+    margin-left: 5%;
+}
+
+.servicesNav .active {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
+.servicesNav a:hover:not(.active){
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.servicesNav a:hover:is(.active) {
+    cursor:default;
+}
+
+.services h2 {
+    margin: 30px 0px 40px 0px;
+}
+.content h2, p {
+    margin: 30px 0px 40px 0px;
+}
+.webDevelopment {
+    width: 60%;
+    margin-top: 50px;
+}
+
+
+
+.webDevelopment ul{
+    list-style: decimal;
+    text-align: left;
+}
+
+.mobileDevelopment {
+    width: 60%;
+    margin-top: 50px;
+}
+
+
+.mobileDevelopment ul{
+    list-style: decimal;
+    text-align: left;
+}
+
+.consulting {
+    width: 60%;
+    margin-top: 50px;
+}
+
+
+.consulting ul{
+    list-style: decimal;
+    text-align: left;
+}
+
+.mobileDevelopment, .consulting, .webDevelopment {
+    padding: 0.5%;
+    padding-bottom: 2%;
+    color: black;
+    border-radius: 10px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.mobileDevelopment li, .consulting li, .webDevelopment li {
+    padding-bottom: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.lazyload {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.faq-item {
+    padding: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 50%;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.faq-item p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    opacity: 0; 
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+
+.faq-answer[style*='max-height'] {
+    opacity: 1; 
+}
+
+.profilecard {
+    width: 50%;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.contact p,h4,h3 {
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.profilecard{
+    padding: 20px;
+}
+.profilecard p, h3, h4{
+    padding: 5px;
+}
+.profilecard img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.form-container {
+    
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 14px
+    }
+    nav li {
+        font-size: 10px;
+    }
+
+    .servicesNav li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    nav li {
+        visibility: hidden;
+    }
+}
+
+
+
+
